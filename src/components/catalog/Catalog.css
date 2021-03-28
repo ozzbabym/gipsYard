@@ -20,6 +20,23 @@
     width: 100%;
 }
 
+.modalOrder {
+    z-index: 10;
+    position: fixed;
+    width: 500px;
+    display: none;
+    color: white;
+    background: black;
+    margin: 0 auto;
+    top: 25%;
+    left: 30%;
+    border-radius: 10px;
+}
+
+.orderContainer {
+    padding: 20px;
+}
+
 @media (max-width: 900px) {
     .catalog__container {
         grid-template-columns: 1fr 1fr;
@@ -27,6 +44,12 @@
     }
     .catalog {
         margin: 25px;
+    }
+    .modalOrder {
+        width: 300px;
+        top: 25%;
+        left: 30%;
+        border-radius: 10px;
     }
 }
 
@@ -37,5 +60,11 @@
     }
     .catalog {
         margin: 0px;
+    }
+    .modalOrder {
+        width: 100%;
+        top: 25%;
+        left: 0px;
+        border-radius: 10px;
     }
 }

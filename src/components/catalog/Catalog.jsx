@@ -1,41 +1,36 @@
 import React from 'react'
 import './Catalog.css'
-import antichnoe from '../../img/antichnoeTree650.jpeg'
-import rvaniySlanec from '../../img/rvaniySlanec750.jpeg'
-import oldStone from '../../img/oldStone670.jpeg'
-import oldStoneLittle from '../../img/oldStoneLittle490.jpeg'
+import {catalogItems} from './catalogItems'
+import $ from 'jquery'
+import emailjs from 'emailjs-com'
+import x from '../../img/X.png'
 
 
 export default function Catalog() {
 
-    const catalogItems = [
-        {   id: 1,
-            img: antichnoe,
-            description: 'ОЛИВА Благословенное дерево в античной, иудейской, христианской и исламской традициях, широко известное как символ мира, а также победы, радости, изобилия, чистоты, бессмертия и целомудрия. Будучи чрезвычайно важной культурой в Средиземноморье (раннее, обильное, длительное плодоношение), олива считалась священным деревом в Древней Греции, атрибутом воинственной богини Афины.',
-            price: 650 
-        },
-        {   id: 2,
-            img: rvaniySlanec,
-            description: 'ОЛИВА Благословенное дерево в античной, иудейской, христианской и исламской традициях, широко известное как символ мира, а также победы, радости, изобилия, чистоты, бессмертия и целомудрия. Будучи чрезвычайно важной культурой в Средиземноморье (раннее, обильное, длительное плодоношение), олива считалась священным деревом в Древней Греции, атрибутом воинственной богини Афины.',
-            price: 750 
-        },
-        {   id: 3,
-            img: oldStone,
-            description: 'ОЛИВА Благословенное дерево в античной, иудейской, христианской и исламской традициях, широко известное как символ мира, а также победы, радости, изобилия, чистоты, бессмертия и целомудрия. Будучи чрезвычайно важной культурой в Средиземноморье (раннее, обильное, длительное плодоношение), олива считалась священным деревом в Древней Греции, атрибутом воинственной богини Афины.',
-            price: 670 
-        },
-        {   id: 4,
-            img: oldStoneLittle,
-            description: 'ОЛИВА Благословенное дерево в античной, иудейской, христианской и исламской традициях, широко известное как символ мира, а также победы, радости, изобилия, чистоты, бессмертия и целомудрия. Будучи чрезвычайно важной культурой в Средиземноморье (раннее, обильное, длительное плодоношение), олива считалась священным деревом в Древней Греции, атрибутом воинственной богини Афины.',
-            price: 490 
-        },
-    ]
+    const orderGoods = () => {
+        $('.modalOrder').slideToggle(500)
+    }
+
+
+    const sendForm = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('gmail', 'template_7vh13xo', e.target, 'user_ggTnM45MM5yTgPhd0O72t')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        
+        $('.modalOrder').slideToggle(500)
+            e.target.reset()
+    }
 
 
     return (
         <div className="catalog">
             <div className="catalog__container">
-                {catalogItems.map((item)=><div key={item.id} className="catalog__items">
+                {catalogItems.map((item)=><div key={item.id} className="catalog__items" >
                     <img src={item.img} alt="картинка" />
                     <div style={{margin: 10}}>
                         {item.description}
@@ -45,9 +40,30 @@ export default function Catalog() {
                         <b>{item.price} руб/м²</b>
                     </div>
                     <br />
-                    <button type="button" class="btn btn-primary">Заказать</button>
+                    <button onClick={orderGoods} type="button" class="btn btn-primary">Заказать</button>
                 </div>
                 )}   
+            </div>
+            <div className="modalOrder">
+                <div className="orderContainer">
+                    <img onClick={() => $('.modalOrder').slideToggle(500)} src={x} alt="X" style={{width: 30}}/>
+                    <form onSubmit={sendForm}>
+                        <div className="form-group">
+                            <label for="exampleFormControlInput1">Ваше имя</label>
+                            <input minLength="1" name='name' type="text" className="form-control" id="exampleFormControlInput1" placeholder="your name"/>
+                        </div>
+                        <div className="form-group">
+                            <label for="exampleFormControlInput1">Ваш контактный номер телефона</label>
+                            <input minLength="10" name='phone' type="number" className="form-control" id="exampleFormControlInput1" placeholder="+7()"/>
+                        </div>
+                        <div className="form-group">
+                            <label for="exampleFormControlTextarea1">Ваше сообщение</label>
+                            <textarea minLength="5" name='message' className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <br/>
+                        <input type="submit" class="btn btn-success" value='Отправить'></input>
+                    </form>
+                </div>
             </div>
         </div>
     )
