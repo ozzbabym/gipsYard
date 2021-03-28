@@ -28,11 +28,11 @@ export default function Header() {
             <div className="modal">
             <img onClick={() => $('.modal').slideToggle(500)} src={x} alt="X" style={{width: 30, margin: "5px 0px 0px 5px"}}/>
                 <div className="modal__container">
-                    <div><b>Номер телефона: 8-999-999-99-99</b></div>
+                    <div><b>Номер телефона: <a href="tel:+79999999999">+7-999-999-99-99</a></b></div>
                     <br/>
-                    <div><b>Карта: 4276 5555 6666 9999</b></div>
+                    <div><b>Viber: <a title="Viber" href="viber://add?number=+79999999999">+7-999-999-99-99</a></b></div>
                     <br/>
-                    <div><b>WhatsApp: 8-999-999-99-99</b></div>
+                    <div><b>WhatApp: <a title="WhatsApp" href="whatsapp://send?phone=++79999999999">+7-999-999-99-99</a></b></div>
                 </div>
             </div>
         </div>

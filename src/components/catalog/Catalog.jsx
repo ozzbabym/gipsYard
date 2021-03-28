@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Catalog.css'
 import {catalogItems} from './catalogItems'
 import $ from 'jquery'
@@ -7,13 +7,16 @@ import x from '../../img/X.png'
 
 
 export default function Catalog() {
+    const [goods, setGoods] = useState('')
 
-    const orderGoods = () => {
+    const orderGoods = (e) => {
+        setGoods(e)
         $('.modalOrder').slideToggle(500)
     }
 
 
     const sendForm = (e) => {
+        console.log(e.target)
         e.preventDefault();
         emailjs.sendForm('gmail', 'template_7vh13xo', e.target, 'user_ggTnM45MM5yTgPhd0O72t')
             .then((result) => {
@@ -31,6 +34,11 @@ export default function Catalog() {
         <div className="catalog">
             <div className="catalog__container">
                 {catalogItems.map((item)=><div key={item.id} className="catalog__items" >
+                    <br/>
+                    <div>
+                        <h3>{item.title}</h3>
+                    </div>
+                    <br/>
                     <img src={item.img} alt="картинка" />
                     <div style={{margin: 10}}>
                         {item.description}
@@ -40,7 +48,7 @@ export default function Catalog() {
                         <b>{item.price} руб/м²</b>
                     </div>
                     <br />
-                    <button onClick={orderGoods} type="button" class="btn btn-primary">Заказать</button>
+                    <button onClick={()=>orderGoods(item.title)} type="button" class="btn btn-primary">Заказать</button>
                 </div>
                 )}   
             </div>
@@ -48,6 +56,10 @@ export default function Catalog() {
                 <div className="orderContainer">
                     <img onClick={() => $('.modalOrder').slideToggle(500)} src={x} alt="X" style={{width: 30}}/>
                     <form onSubmit={sendForm}>
+                        <div className="form-group">
+                            <label for="exampleFormControlInput1">Материал</label>
+                            <input name='goods' type="text" className="form-control" id="exampleFormControlInput1" value={goods}/>
+                        </div>
                         <div className="form-group">
                             <label for="exampleFormControlInput1">Ваше имя</label>
                             <input minLength="1" name='name' type="text" className="form-control" id="exampleFormControlInput1" placeholder="your name"/>
