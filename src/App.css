@@ -4,3 +4,18 @@ body{
 .App {
   font-family: 'New Tegomin', serif;
 }
+.footer {
+  width: 100%;
+  background-color: black;
+  min-height: 200px;
+}
+
+.footer__container {
+  font-size: 12px;
+  color: white;
+  padding: 20px 0px 50px 30px;
+}
+
+.ofert {
+  max-width: 300px;
+}
