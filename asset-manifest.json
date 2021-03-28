@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gipsYard/static/css/main.b4ebff7f.chunk.css",
-    "main.js": "/gipsYard/static/js/main.1ad32230.chunk.js",
-    "main.js.map": "/gipsYard/static/js/main.1ad32230.chunk.js.map",
+    "main.js": "/gipsYard/static/js/main.d1308c03.chunk.js",
+    "main.js.map": "/gipsYard/static/js/main.d1308c03.chunk.js.map",
     "runtime-main.js": "/gipsYard/static/js/runtime-main.d6ca436d.js",
     "runtime-main.js.map": "/gipsYard/static/js/runtime-main.d6ca436d.js.map",
     "static/js/2.c565cf4b.chunk.js": "/gipsYard/static/js/2.c565cf4b.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.d6ca436d.js",
     "static/js/2.c565cf4b.chunk.js",
     "static/css/main.b4ebff7f.chunk.css",
-    "static/js/main.1ad32230.chunk.js"
+    "static/js/main.d1308c03.chunk.js"
   ]
 }
