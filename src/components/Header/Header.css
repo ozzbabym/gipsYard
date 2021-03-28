@@ -14,6 +14,12 @@
 .numberPhone :nth-child(1){
     font-size: 30px;
  }
+.numberPhone :nth-child(2) b{
+    font-size: 15px;
+ }
+.numberPhone :nth-child(2) a{
+    font-size: 15px;
+ }
 
 .menu {
     display: flex;
@@ -63,6 +69,12 @@
     .numberPhone :nth-child(1){
         font-size: 20px;
      }
+     .numberPhone :nth-child(2) b{
+        font-size: 10px;
+     }
+    .numberPhone :nth-child(2) a{
+        font-size: 10px;
+     }
 }
 
 .modal__container {
@@ -77,5 +89,8 @@
     text-decoration: none;
 }
 
+.numberPhone a{
+    text-decoration: none;
+}
 
 
