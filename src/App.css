@@ -1,8 +1,10 @@
 body{
   background-color: #FFF0F5;
+  
 }
 .App {
   font-family: 'New Tegomin', serif;
+  white-space: pre-line;
 }
 .footer {
   width: 100%;

@@ -3,6 +3,7 @@ import './Header.css'
 import $ from 'jquery'
 import x from '../../img/X.png'
 import { NavLink } from 'react-router-dom'
+import G from '../../img/GipsYard.png'
 
 export default function Header() {
 
@@ -14,7 +15,11 @@ export default function Header() {
         <div className="header">
             <div className="numberPhone">
                 <div>
-                    <b>Gips Yard</b>
+                    <img src={G} alt="картинка"/>
+                    <div className="brand">
+                        <b>Gips Yard</b>
+                        <div className='underbrand'>декоративная плитка</div>
+                    </div>
                 </div>
                 <div>
                     <b>контактный номер: <a href="tel:+79671834750">+7-967-183-47-50</a></b>
