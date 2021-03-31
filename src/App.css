@@ -9,9 +9,10 @@ body{
 .footer {
   width: 100%;
   border-top: 0.5px solid black;
-  background-color: #FFF0F5;
+  background-color: #EEE8AA;
   min-height: 200px;
   margin-top: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 .footer__container {
@@ -22,4 +23,7 @@ body{
 
 .ofert {
   max-width: 300px;
+}
+button {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }

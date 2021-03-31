@@ -4,17 +4,20 @@
     min-width: 300px;
     background-color: #EEE8AA;
     padding-bottom: 1vh;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 .numberPhone {
    display: flex;
    justify-content: space-between;
    padding: 10px 10px;
+   
 }
 
 .numberPhone img {
     width: 100px;
     float: left;
+    
 }
 
 .brand{
@@ -25,6 +28,7 @@
 
 .numberPhone :nth-child(1){
     font-size: 50px;
+    
  }
 .numberPhone :nth-child(2) b{
     font-size: 25px;
@@ -48,6 +52,7 @@
 }
 
 .modal {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 9;
     width: 40%;
     height: 200px;

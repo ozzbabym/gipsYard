@@ -3,6 +3,7 @@
 }
 
 .catalog__container {
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -11,6 +12,7 @@
 }
 
 .catalog__items {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
     padding: 10px;
     border: 1px solid grey;
     text-align: center;
@@ -22,6 +24,7 @@
 }
 
 .modalOrder {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 10;
     position: fixed;
     width: 500px;
@@ -36,6 +39,7 @@
 
 .orderContainer {
     padding: 20px;
+    
 }
 
 @media (max-width: 900px) {
