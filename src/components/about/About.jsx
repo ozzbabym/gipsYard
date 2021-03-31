@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import './About.css'
 import Slider from './Slider/Slider'
 
@@ -8,6 +8,7 @@ export default function About() {
     
     return (
         <div>
+            <h1 style={{textAlign: 'center', marginTop: 20, minWidth: 320}}>Наши работы</h1>
             <div className="about">
                 <Slider />
                 <div>
