@@ -2,7 +2,7 @@
     position: relative;
     min-height: 450px;
     min-width: 300px;
-    margin-left: -20px;
+    margin: 0 auto;
     box-sizing: border-box;
     display: flex;
     align-items: center;
