@@ -35,7 +35,7 @@ export default function Catalog() {
             <div className="catalog__container">
                 {catalogItems.map((item)=><div key={item.id} className="catalog__items" >
                     <br/>
-                    <div>
+                    <div style={{height: 50}}>
                         <h3>{item.title}</h3>
                     </div>
                     <br/>

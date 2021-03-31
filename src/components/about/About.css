@@ -7,6 +7,24 @@
     
 }
 
+.prevPicture{
+    width: 300px;
+    transform: translateX(-100%);
+    transition: 2s;
+}
+
+.Picture{
+    width: 300px;
+    transform: translateX(0%);
+    transition: 2s;
+}
+
+.nextPicture{
+    width: 300px;
+    transform: translateX(100%);
+    transition: 2s;
+}
+
 @media (max-width: 750px){
     .about {
         margin: 25px;

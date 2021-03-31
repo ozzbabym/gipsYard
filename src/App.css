@@ -8,13 +8,13 @@ body{
 }
 .footer {
   width: 100%;
-  background-color: black;
+  background-color: #FFE4E1;
   min-height: 200px;
 }
 
 .footer__container {
   font-size: 12px;
-  color: white;
+  color: black;
   padding: 20px 0px 50px 30px;
 }
 

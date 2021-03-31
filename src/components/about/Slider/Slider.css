@@ -1,0 +1,25 @@
+.slider {
+    position: relative;
+    min-height: 450px;
+    min-width: 300px;
+    margin-left: -20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+ 
+.slider-img {
+    position: absolute;
+    width: 100%;
+    
+    transition: all 2s;
+}
+ 
+.slider-img-prev {
+    transform: translateX(-100%);
+}
+ 
+.slider-img-next {
+    transform: translateX(100%);
+}
