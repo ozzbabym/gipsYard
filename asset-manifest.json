@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/gipsYard/static/css/main.4194e8a5.chunk.css",
-    "main.js": "/gipsYard/static/js/main.0e8af80c.chunk.js",
-    "main.js.map": "/gipsYard/static/js/main.0e8af80c.chunk.js.map",
+    "main.css": "/gipsYard/static/css/main.cb697c10.chunk.css",
+    "main.js": "/gipsYard/static/js/main.7e5aa8c8.chunk.js",
+    "main.js.map": "/gipsYard/static/js/main.7e5aa8c8.chunk.js.map",
     "runtime-main.js": "/gipsYard/static/js/runtime-main.d6ca436d.js",
     "runtime-main.js.map": "/gipsYard/static/js/runtime-main.d6ca436d.js.map",
-    "static/js/2.c565cf4b.chunk.js": "/gipsYard/static/js/2.c565cf4b.chunk.js",
-    "static/js/2.c565cf4b.chunk.js.map": "/gipsYard/static/js/2.c565cf4b.chunk.js.map",
+    "static/js/2.00e1520d.chunk.js": "/gipsYard/static/js/2.00e1520d.chunk.js",
+    "static/js/2.00e1520d.chunk.js.map": "/gipsYard/static/js/2.00e1520d.chunk.js.map",
     "index.html": "/gipsYard/index.html",
-    "static/css/main.4194e8a5.chunk.css.map": "/gipsYard/static/css/main.4194e8a5.chunk.css.map",
-    "static/js/2.c565cf4b.chunk.js.LICENSE.txt": "/gipsYard/static/js/2.c565cf4b.chunk.js.LICENSE.txt",
+    "static/css/main.cb697c10.chunk.css.map": "/gipsYard/static/css/main.cb697c10.chunk.css.map",
+    "static/js/2.00e1520d.chunk.js.LICENSE.txt": "/gipsYard/static/js/2.00e1520d.chunk.js.LICENSE.txt",
+    "static/media/1.ed9eaaa7.jpeg": "/gipsYard/static/media/1.ed9eaaa7.jpeg",
+    "static/media/2.a4ad9ddb.jpeg": "/gipsYard/static/media/2.a4ad9ddb.jpeg",
+    "static/media/3.c2b2013e.jpeg": "/gipsYard/static/media/3.c2b2013e.jpeg",
+    "static/media/4.4b62e661.jpeg": "/gipsYard/static/media/4.4b62e661.jpeg",
+    "static/media/5.535d1cbf.jpeg": "/gipsYard/static/media/5.535d1cbf.jpeg",
+    "static/media/6.1fcac410.jpeg": "/gipsYard/static/media/6.1fcac410.jpeg",
+    "static/media/7.b49a48c6.jpeg": "/gipsYard/static/media/7.b49a48c6.jpeg",
     "static/media/GipsYard.7a8f5d68.png": "/gipsYard/static/media/GipsYard.7a8f5d68.png",
     "static/media/X.24c901d6.png": "/gipsYard/static/media/X.24c901d6.png",
-    "static/media/about.c3ef61e0.jpeg": "/gipsYard/static/media/about.c3ef61e0.jpeg",
     "static/media/antichnoeTree650.f7da39ca.jpeg": "/gipsYard/static/media/antichnoeTree650.f7da39ca.jpeg",
     "static/media/oldStone670.59997d9a.jpeg": "/gipsYard/static/media/oldStone670.59997d9a.jpeg",
     "static/media/oldStoneLittle490.a16b0c4b.jpeg": "/gipsYard/static/media/oldStoneLittle490.a16b0c4b.jpeg",
@@ -20,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d6ca436d.js",
-    "static/js/2.c565cf4b.chunk.js",
-    "static/css/main.4194e8a5.chunk.css",
-    "static/js/main.0e8af80c.chunk.js"
+    "static/js/2.00e1520d.chunk.js",
+    "static/css/main.cb697c10.chunk.css",
+    "static/js/main.7e5aa8c8.chunk.js"
   ]
 }
