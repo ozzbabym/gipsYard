@@ -1,6 +1,9 @@
 import React from 'react'
 import './About.css'
 import Slider from './Slider/Slider'
+import like from '../../img/icon/like.png'
+import grand from '../../img/icon/100.png'
+import ourProductions from '../../img/icon/ourProductions.png'
 
 
 export default function About() {
@@ -9,11 +12,20 @@ export default function About() {
     return (
         <div>
             <h1 style={{textAlign: 'center', marginTop: 20, minWidth: 320}}>Наши работы</h1>
+            
             <div className="about">
                 <Slider />
+            </div>
+            <div className="akcia"><b>Акция</b></div>
+            <div className="akcia__text">При заказе монтажа действует скидка <b>10%</b> на плитку</div>
+            <div className='icon'>
+                <div></div>
                 <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perspiciatis nemo, atque ea ullam consequuntur, fuga est neque veritatis ut hic eligendi reprehenderit dolore quaerat doloribus eius magni nobis. Beatae iusto laudantium, suscipit nesciunt porro ad molestias at possimus, blanditiis, aspernatur harum pariatur dolorem neque iure delectus nisi dolores quaerat. Minima, exercitationem ut expedita quos autem corporis, doloribus facere qui laudantium voluptate hic sequi et nesciunt porro tenetur unde magnam vitae! Voluptatem natus ratione reiciendis delectus suscipit voluptas provident rem, atque assumenda recusandae impedit eveniet cupiditate esse ullam ad aperiam accusantium nobis harum et? Est totam accusantium et maiores necessitatibus.
+                    <img src={like} alt="картинка"/>
+                    <img src={grand} alt="картинка"/>
+                    <img src={ourProductions} alt="картинка"/>
                 </div>
+                <div></div>
             </div>
         </div>
     )
