@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/gipsYard/static/css/main.cfd27949.chunk.css",
-    "main.js": "/gipsYard/static/js/main.7e5aa8c8.chunk.js",
-    "main.js.map": "/gipsYard/static/js/main.7e5aa8c8.chunk.js.map",
+    "main.css": "/gipsYard/static/css/main.15a63824.chunk.css",
+    "main.js": "/gipsYard/static/js/main.b77cbb25.chunk.js",
+    "main.js.map": "/gipsYard/static/js/main.b77cbb25.chunk.js.map",
     "runtime-main.js": "/gipsYard/static/js/runtime-main.d6ca436d.js",
     "runtime-main.js.map": "/gipsYard/static/js/runtime-main.d6ca436d.js.map",
     "static/js/2.00e1520d.chunk.js": "/gipsYard/static/js/2.00e1520d.chunk.js",
     "static/js/2.00e1520d.chunk.js.map": "/gipsYard/static/js/2.00e1520d.chunk.js.map",
     "index.html": "/gipsYard/index.html",
-    "static/css/main.cfd27949.chunk.css.map": "/gipsYard/static/css/main.cfd27949.chunk.css.map",
+    "static/css/main.15a63824.chunk.css.map": "/gipsYard/static/css/main.15a63824.chunk.css.map",
     "static/js/2.00e1520d.chunk.js.LICENSE.txt": "/gipsYard/static/js/2.00e1520d.chunk.js.LICENSE.txt",
     "static/media/1.ed9eaaa7.jpeg": "/gipsYard/static/media/1.ed9eaaa7.jpeg",
     "static/media/2.a4ad9ddb.jpeg": "/gipsYard/static/media/2.a4ad9ddb.jpeg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.d6ca436d.js",
     "static/js/2.00e1520d.chunk.js",
-    "static/css/main.cfd27949.chunk.css",
-    "static/js/main.7e5aa8c8.chunk.js"
+    "static/css/main.15a63824.chunk.css",
+    "static/js/main.b77cbb25.chunk.js"
   ]
 }
