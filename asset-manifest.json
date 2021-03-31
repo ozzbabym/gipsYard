@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/gipsYard/static/css/main.cd95504e.chunk.css",
-    "main.js": "/gipsYard/static/js/main.b77cbb25.chunk.js",
-    "main.js.map": "/gipsYard/static/js/main.b77cbb25.chunk.js.map",
+    "main.css": "/gipsYard/static/css/main.8c62be21.chunk.css",
+    "main.js": "/gipsYard/static/js/main.acac927e.chunk.js",
+    "main.js.map": "/gipsYard/static/js/main.acac927e.chunk.js.map",
     "runtime-main.js": "/gipsYard/static/js/runtime-main.d6ca436d.js",
     "runtime-main.js.map": "/gipsYard/static/js/runtime-main.d6ca436d.js.map",
     "static/js/2.00e1520d.chunk.js": "/gipsYard/static/js/2.00e1520d.chunk.js",
     "static/js/2.00e1520d.chunk.js.map": "/gipsYard/static/js/2.00e1520d.chunk.js.map",
     "index.html": "/gipsYard/index.html",
-    "static/css/main.cd95504e.chunk.css.map": "/gipsYard/static/css/main.cd95504e.chunk.css.map",
+    "static/css/main.8c62be21.chunk.css.map": "/gipsYard/static/css/main.8c62be21.chunk.css.map",
     "static/js/2.00e1520d.chunk.js.LICENSE.txt": "/gipsYard/static/js/2.00e1520d.chunk.js.LICENSE.txt",
     "static/media/1.ed9eaaa7.jpeg": "/gipsYard/static/media/1.ed9eaaa7.jpeg",
+    "static/media/100.5f5ea80c.png": "/gipsYard/static/media/100.5f5ea80c.png",
     "static/media/2.a4ad9ddb.jpeg": "/gipsYard/static/media/2.a4ad9ddb.jpeg",
     "static/media/3.c2b2013e.jpeg": "/gipsYard/static/media/3.c2b2013e.jpeg",
     "static/media/4.4b62e661.jpeg": "/gipsYard/static/media/4.4b62e661.jpeg",
@@ -20,14 +21,16 @@
     "static/media/GipsYard.7a8f5d68.png": "/gipsYard/static/media/GipsYard.7a8f5d68.png",
     "static/media/X.24c901d6.png": "/gipsYard/static/media/X.24c901d6.png",
     "static/media/antichnoeTree650.f7da39ca.jpeg": "/gipsYard/static/media/antichnoeTree650.f7da39ca.jpeg",
+    "static/media/like.6d0e5981.png": "/gipsYard/static/media/like.6d0e5981.png",
     "static/media/oldStone670.59997d9a.jpeg": "/gipsYard/static/media/oldStone670.59997d9a.jpeg",
     "static/media/oldStoneLittle490.a16b0c4b.jpeg": "/gipsYard/static/media/oldStoneLittle490.a16b0c4b.jpeg",
+    "static/media/ourProductions.48840e9f.png": "/gipsYard/static/media/ourProductions.48840e9f.png",
     "static/media/rvaniySlanec750.e8f1d15b.jpeg": "/gipsYard/static/media/rvaniySlanec750.e8f1d15b.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.d6ca436d.js",
     "static/js/2.00e1520d.chunk.js",
-    "static/css/main.cd95504e.chunk.css",
-    "static/js/main.b77cbb25.chunk.js"
+    "static/css/main.8c62be21.chunk.css",
+    "static/js/main.acac927e.chunk.js"
   ]
 }
