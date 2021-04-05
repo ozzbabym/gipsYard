@@ -37,7 +37,7 @@ export default function Header() {
                     <br/>
                     <div><b>Viber: <a title="Viber" href="viber://add?number=+79671834750">+7-967-183-47-50</a></b></div>
                     <br/>
-                    <div><b>WhatApp: <a title="WhatsApp" href="whatsapp://send?phone=+79671834750">+7-967-183-47-50</a></b></div>
+                    <div><b>WhatsApp: <a title="WhatsApp" href="whatsapp://send?phone=+79671834750">+7-967-183-47-50</a></b></div>
                 </div>
             </div>
         </div>

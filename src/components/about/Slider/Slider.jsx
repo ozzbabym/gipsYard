@@ -7,10 +7,10 @@ import img4 from '../../../img/ourWork/4.jpg'
 
 
 const img = [
-    <img key={img1} src={img1} style={{width: 300}}/>, 
-    <img key={img2} src={img2} style={{width: 300}}/>, 
-    <img key={img3} src={img3} style={{width: 300}}/>, 
-    <img key={img4} src={img4} style={{width: 300}}/>, 
+    <img key={img1} src={img1} />, 
+    <img key={img2} src={img2} />, 
+    <img key={img3} src={img3} />, 
+    <img key={img4} src={img4} />, 
     
 ]
 

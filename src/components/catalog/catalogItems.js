@@ -1,7 +1,7 @@
-import antichnoe from '../../img/antichnoeTree650.jpeg'
-import rvaniySlanec from '../../img/rvaniySlanec750.jpeg'
-import oldStone from '../../img/oldStone670.jpeg'
-import oldStoneLittle from '../../img/oldStoneLittle490.jpeg'
+import antichnoe from '../../img/anitchnoeTree.jpg'
+import rvaniySlanec from '../../img/rvaniySlanec.jpg'
+import oldStone from '../../img/oldStone.jpg'
+import oldStoneLittle from '../../img/oldStoneSmall.jpg'
 
 
 

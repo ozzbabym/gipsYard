@@ -39,7 +39,9 @@ export default function Catalog() {
                         <h3>{item.title}</h3>
                     </div>
                     <br/>
-                    <img src={item.img} alt="картинка" />
+                    <div className="picture">
+                        <img src={item.img} alt="картинка" />
+                    </div>
                     <div style={{margin: 10}}>
                         {item.description}
                     </div>

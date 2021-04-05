@@ -23,6 +23,12 @@
     width: 100%;
 }
 
+.picture{
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+}
+
 .modalOrder {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 10;

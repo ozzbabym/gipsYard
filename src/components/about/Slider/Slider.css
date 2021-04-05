@@ -1,5 +1,6 @@
 .slider {
     position: relative;
+    width: 50%;
     min-height: 300px;
     min-width: 300px;
     margin: 0 auto;
@@ -9,11 +10,14 @@
     overflow: hidden;
 }
 
-
+.slider img {
+    width: 100%;
+    
+}
  
 .slider-img {
     position: absolute;
-    width: 120%;
+    width: 100%;
     transition: all 2s;
 }
  
