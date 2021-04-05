@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gipsYard/static/css/main.565502a1.chunk.css",
-    "main.js": "/gipsYard/static/js/main.0bfd01b0.chunk.js",
-    "main.js.map": "/gipsYard/static/js/main.0bfd01b0.chunk.js.map",
+    "main.js": "/gipsYard/static/js/main.cde65139.chunk.js",
+    "main.js.map": "/gipsYard/static/js/main.cde65139.chunk.js.map",
     "runtime-main.js": "/gipsYard/static/js/runtime-main.d6ca436d.js",
     "runtime-main.js.map": "/gipsYard/static/js/runtime-main.d6ca436d.js.map",
     "static/js/2.6360e376.chunk.js": "/gipsYard/static/js/2.6360e376.chunk.js",
@@ -17,9 +17,9 @@
     "static/media/4.67dbe404.jpg": "/gipsYard/static/media/4.67dbe404.jpg",
     "static/media/GipsYard.7a8f5d68.png": "/gipsYard/static/media/GipsYard.7a8f5d68.png",
     "static/media/X.24c901d6.png": "/gipsYard/static/media/X.24c901d6.png",
-    "static/media/anitchnoeTree.67dbe404.jpg": "/gipsYard/static/media/anitchnoeTree.67dbe404.jpg",
+    "static/media/anitchnoeTree.ac2bd42a.jpg": "/gipsYard/static/media/anitchnoeTree.ac2bd42a.jpg",
     "static/media/like.6d0e5981.png": "/gipsYard/static/media/like.6d0e5981.png",
-    "static/media/oldStone.deda2130.jpg": "/gipsYard/static/media/oldStone.deda2130.jpg",
+    "static/media/oldStone.efaa8124.jpg": "/gipsYard/static/media/oldStone.efaa8124.jpg",
     "static/media/oldStoneSmall.271544c7.jpg": "/gipsYard/static/media/oldStoneSmall.271544c7.jpg",
     "static/media/ourProductions.48840e9f.png": "/gipsYard/static/media/ourProductions.48840e9f.png",
     "static/media/rvaniySlanec.7948e616.jpg": "/gipsYard/static/media/rvaniySlanec.7948e616.jpg"
@@ -28,6 +28,6 @@
     "static/js/runtime-main.d6ca436d.js",
     "static/js/2.6360e376.chunk.js",
     "static/css/main.565502a1.chunk.css",
-    "static/js/main.0bfd01b0.chunk.js"
+    "static/js/main.cde65139.chunk.js"
   ]
 }
