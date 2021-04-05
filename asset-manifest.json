@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.805b2830.chunk.css",
-    "main.js": "/static/js/main.96f762b3.chunk.js",
-    "main.js.map": "/static/js/main.96f762b3.chunk.js.map",
+    "main.css": "/static/css/main.6b385388.chunk.css",
+    "main.js": "/static/js/main.2f81325a.chunk.js",
+    "main.js.map": "/static/js/main.2f81325a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ea7c1dcd.js",
     "runtime-main.js.map": "/static/js/runtime-main.ea7c1dcd.js.map",
     "static/js/2.6360e376.chunk.js": "/static/js/2.6360e376.chunk.js",
     "static/js/2.6360e376.chunk.js.map": "/static/js/2.6360e376.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.805b2830.chunk.css.map": "/static/css/main.805b2830.chunk.css.map",
+    "static/css/main.6b385388.chunk.css.map": "/static/css/main.6b385388.chunk.css.map",
     "static/js/2.6360e376.chunk.js.LICENSE.txt": "/static/js/2.6360e376.chunk.js.LICENSE.txt",
     "static/media/1.f197b59e.jpg": "/static/media/1.f197b59e.jpg",
     "static/media/100.5f5ea80c.png": "/static/media/100.5f5ea80c.png",
@@ -17,17 +17,17 @@
     "static/media/4.67dbe404.jpg": "/static/media/4.67dbe404.jpg",
     "static/media/GipsYard.7a8f5d68.png": "/static/media/GipsYard.7a8f5d68.png",
     "static/media/X.24c901d6.png": "/static/media/X.24c901d6.png",
-    "static/media/antichnoeTree650.f7da39ca.jpeg": "/static/media/antichnoeTree650.f7da39ca.jpeg",
+    "static/media/anitchnoeTree.67dbe404.jpg": "/static/media/anitchnoeTree.67dbe404.jpg",
     "static/media/like.6d0e5981.png": "/static/media/like.6d0e5981.png",
-    "static/media/oldStone670.59997d9a.jpeg": "/static/media/oldStone670.59997d9a.jpeg",
-    "static/media/oldStoneLittle490.a16b0c4b.jpeg": "/static/media/oldStoneLittle490.a16b0c4b.jpeg",
+    "static/media/oldStone.deda2130.jpg": "/static/media/oldStone.deda2130.jpg",
+    "static/media/oldStoneSmall.271544c7.jpg": "/static/media/oldStoneSmall.271544c7.jpg",
     "static/media/ourProductions.48840e9f.png": "/static/media/ourProductions.48840e9f.png",
-    "static/media/rvaniySlanec750.e8f1d15b.jpeg": "/static/media/rvaniySlanec750.e8f1d15b.jpeg"
+    "static/media/rvaniySlanec.7948e616.jpg": "/static/media/rvaniySlanec.7948e616.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ea7c1dcd.js",
     "static/js/2.6360e376.chunk.js",
-    "static/css/main.805b2830.chunk.css",
-    "static/js/main.96f762b3.chunk.js"
+    "static/css/main.6b385388.chunk.css",
+    "static/js/main.2f81325a.chunk.js"
   ]
 }
