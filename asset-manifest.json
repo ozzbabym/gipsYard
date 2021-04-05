@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gipsYard/static/css/main.6b385388.chunk.css",
+    "main.css": "/gipsYard/static/css/main.565502a1.chunk.css",
     "main.js": "/gipsYard/static/js/main.0bfd01b0.chunk.js",
     "main.js.map": "/gipsYard/static/js/main.0bfd01b0.chunk.js.map",
     "runtime-main.js": "/gipsYard/static/js/runtime-main.d6ca436d.js",
@@ -8,7 +8,7 @@
     "static/js/2.6360e376.chunk.js": "/gipsYard/static/js/2.6360e376.chunk.js",
     "static/js/2.6360e376.chunk.js.map": "/gipsYard/static/js/2.6360e376.chunk.js.map",
     "index.html": "/gipsYard/index.html",
-    "static/css/main.6b385388.chunk.css.map": "/gipsYard/static/css/main.6b385388.chunk.css.map",
+    "static/css/main.565502a1.chunk.css.map": "/gipsYard/static/css/main.565502a1.chunk.css.map",
     "static/js/2.6360e376.chunk.js.LICENSE.txt": "/gipsYard/static/js/2.6360e376.chunk.js.LICENSE.txt",
     "static/media/1.f197b59e.jpg": "/gipsYard/static/media/1.f197b59e.jpg",
     "static/media/100.5f5ea80c.png": "/gipsYard/static/media/100.5f5ea80c.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.d6ca436d.js",
     "static/js/2.6360e376.chunk.js",
-    "static/css/main.6b385388.chunk.css",
+    "static/css/main.565502a1.chunk.css",
     "static/js/main.0bfd01b0.chunk.js"
   ]
 }
